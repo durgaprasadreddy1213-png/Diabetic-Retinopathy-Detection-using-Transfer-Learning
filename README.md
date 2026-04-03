@@ -233,9 +233,6 @@ python app.py
 # Note
 The final model we used was in the [Model Folder](https://github.com/Tirth27/Detecting-diabetic-retinopathy/tree/master/src/Model). Also, we havetried various approach to get the good results and all the approaches are in [Miscellaneous Folder](https://github.com/Tirth27/Detecting-diabetic-retinopathy/tree/master/src/miscellaneous%20scripts).
 
-## Credits
-This project cannot be completed without you guys **Parth Purani** [@github/ParthPurani](https://github.com/ParthPurani) and **Hardik Vekariya** [@github/hv245](https://github.com/hv245). Thanks for your support :) 
-
 ## References
 
 1. [Denoise](https://docs.opencv.org/3.3.0/d5/d69/tutorial_py_non_local_means.html) and [CLAHE](https://docs.opencv.org/3.1.0/d5/daf/tutorial_py_histogram_equalization.html)
