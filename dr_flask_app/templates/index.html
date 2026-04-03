@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Diabetic Retinopathy Classification</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  </head>
+  <body>
+    <header class="top-bar">
+      <div class="logo">Diabetic Retinopathy Classification</div>
+      <nav>
+        <a href="{{ url_for('index') }}">Home</a>
+        <a href="{{ url_for('prediction_page') }}">Prediction</a>
+      </nav>
+    </header>
+
+    <main class="container">
+
+      <section class="hero">
+        <h1>Deep Learning Fundus Image Analysis</h1>
+        <p>
+          Upload retinal fundus images to detect diabetic retinopathy at an early stage
+          using a Convolutional Neural Network (CNN) model.
+        </p>
+
+        <a class="btn" href="{{ url_for('prediction_page') }}">
+          Start Prediction
+        </a>
+      </section>
+
+    </main>
+  </body>
+</html>
